@@ -168,7 +168,7 @@ button:hover {
 }
 .alltogether {
   font-size: 2rem;
-  font-family: "Luckiest Guy", cursive;
+  /* font-family: "Luckiest Guy", cursive; */
 }
 /* media query */
 
@@ -224,6 +224,7 @@ button:hover {
 @media (max-width: 430px) {
   .header {
     font-size: 10px;
+    gap: 5px;
   }
   .dev {
     font-size: 10px;
