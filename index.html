@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>myporfolio</title>
+    <title>Fensle.dev</title>
     <link rel="stylesheet" href="style.css" />
     <script
       src="https://kit.fontawesome.com/8ee87fbffa.js"
@@ -12,27 +12,25 @@
   </head>
   <body>
     <main class="main">
-      <!--==================== HOME ====================-->
       <section class="home section" id="home">
-        <h3>Fensley.dev</h3>
+        <h3 class="dev">Fensley.dev</h3>
         <div class="header">
-          <span>Home</span>
-          <!-- <span>Service</span> -->
-          <span>Project</span>
-          <span>Contact</span>
+          <span class="procon"><a href="project.html">Project</a></span>
+          <span class="procon"> <a href="contact.html">Contact</a></span>
         </div>
       </section>
 
-      <!--==================== ABOUT ====================-->
       <section class="about section" id="about">
         <div class="presentation">
-          <h1>Front-end developer🙋‍♂️</h1>
+          <h1 class="bigfont">Front-end developer🙋‍♂️</h1>
 
           <p class="para">
             Hi, I'm Fensley Rene. A passionate front-end developer based in New
             jersey. 📍
           </p>
-          <button><a href="#">Contact Me</a></button>
+          <div class="btn">
+            <button><a href="contact.html">Contact Me</a></button>
+          </div>
         </div>
         <div class="image">
           <img
@@ -45,55 +43,87 @@
       </section>
       <!-- <hr /> -->
       <div class="white-line"></div>
-      <!--==================== SKILLS ====================-->
+      <section class="services">
+        <h1 class="alltogether">Services</h1>
+      </section>
       <section class="skills section" id="skills">
         <div class="full-card">
           <div class="one">
             <i class="fa-solid fa-code" style="color: #ffffff"></i>
-            <p>5 years of experience</p>
-            <h3>Programming</h3>
+            <h3>Website Development</h3>
+            <p class="gray">
+              Crafting high-performance, robust websites tailored to your needs.
+            </p>
           </div>
 
           <div class="one">
-            <i class="fa-solid fa-code" style="color: #ffffff"></i>
-            <p>5 years of experience</p>
-            <h3>UI/UX</h3>
+            <i class="fa-solid fa-pen-ruler"></i>
+            <h3>Web Design</h3>
+            <p class="gray">
+              Creating visually stunning and user-friendly web designs.
+            </p>
           </div>
 
           <div class="one">
-            <i class="fa-solid fa-code" style="color: #ffffff"></i>
-            <p>5 years of experience</p>
-            <h3>Designin</h3>
+            <i class="fa-solid fa-hand-holding-hand"></i>
+            <h3>Website Care:</h3>
+            <p class="gray">
+              Providing comprehensive maintenance and support to keep your site
+              running smoothly.
+            </p>
           </div>
         </div>
       </section>
 
-      <!--==================== QUALIFICATION ====================-->
+      <section class="services services-tech">
+        <h1 class=".services-tech alltogether">tech Stack</h1>
+      </section>
+
       <section class="qualification section">
         <div class="long-bar">
           <div class="two">
-            <p>Lorem ipsum</p>
-            <h3>Frontend</h3>
+            <img src="https://skillicons.dev/icons?i=html" alt="skill" />
           </div>
 
           <div class="two">
-            <p>Lorem ipsum</p>
-            <h3>Frontend</h3>
+            <img src="https://skillicons.dev/icons?i=css" alt="skill" />
           </div>
 
           <div class="two">
-            <p>Lorem ipsum</p>
-            <h3>Frontend</h3>
+            <img src="https://skillicons.dev/icons?i=bootstrap" alt="skill" />
+          </div>
+
+          <div class="two">
+            <img src="https://skillicons.dev/icons?i=js" alt="skill" />
+          </div>
+
+          <div class="two">
+            <img src="https://skillicons.dev/icons?i=nodejs" alt="skill" />
+          </div>
+
+          <div class="two">
+            <img src="https://skillicons.dev/icons?i=react" alt="skill-icon" />
           </div>
           <div class="two">
-            <p>Lorem ipsum</p>
-            <h3>Frontend</h3>
+            <img src="https://skillicons.dev/icons?i=next" alt="skill-icon" />
+          </div>
+
+          <div class="two">
+            <img src="https://skillicons.dev/icons?i=figma" alt="skill-icon" />
+          </div>
+          <div class="two">
+            <img
+              src="https://skillicons.dev/icons?i=webflow"
+              alt="skill-icon"
+            />
           </div>
         </div>
       </section>
 
-      <!--==================== SERVICES ====================-->
-      <section class="about2 section" id="services">
+      <section class="services services-background">
+        <h1 class="alltogether">My background</h1>
+      </section>
+      <section class="myjourney section" id="services">
         <div class="aboutme">
           <img
             src="https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -102,31 +132,45 @@
             class="second-img"
           />
           <div class="data">
-            <h4>About ME</h4>
-            <!-- <h3>
-              Front-end Developer <br />
-              Based in New jersey
-            </3> -->
-            <p class="xxx">
-              Hello! I'm Fensley Rene, a passionate and dedicated Frontend
-              Developer with a knack for creating engaging and user-friendly web
-              experiences. With a strong foundation in HTML, CSS, and
-              JavaScript, I specialize in building responsive and interactive
-              websites that provide an exceptional user experience across all
-              devices.
-            </p>
-            <br />
-            <h4>My Journey</h4>
-            <p class="xxx">
+            <p class="xxx gray">
               My journey into web development began with a curiosity for how
               websites are built and a desire to create seamless digital
               experiences. Over the years, I have honed my skills and kept up
               with the latest trends and technologies in the frontend
-              development world. I have experience working with popular
-              frameworks and libraries such as React, Vue.js, and Angular, which
-              allow me to deliver dynamic and performant web applications.
+              development world.
+            </p>
+            <br />
+          </div>
+        </div>
+      </section>
+
+      <section class="myjourney sectionnone" id="services">
+        <div class="aboutme">
+          <img
+            src="./data/IMG_0567.jpg"
+            alt="xxx"
+            height="100"
+            class="second-img none"
+          />
+          <div class="data">
+            <p class="xxx gray">
+              I believe in the power of collaboration and clear communication to
+              bring ideas to life. My development process is centered around
+              understanding client needs, meticulous planning, and continuous
+              iteration.
+              <span class="tolong">
+                By prioritizing both functionality and aesthetics, I strive to
+                deliver projects that not only meet but exceed
+                expectations.</span
+              >
             </p>
           </div>
+          <img
+            src="./data/IMG_0567.jpg"
+            alt="xxx"
+            height="100"
+            class="second-img second-none"
+          />
         </div>
       </section>
     </main>
