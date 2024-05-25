@@ -75,6 +75,8 @@ a {
   justify-content: space-between;
   padding: 20px 50px;
   background-color: #2c343a;
+  /* border: 1px solid; */
+  margin-bottom: 50px;
 }
 .full-card {
   display: flex;

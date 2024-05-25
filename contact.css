@@ -98,6 +98,17 @@ button {
   border-radius: 30px;
   max-width: 200px;
 }
+.procon {
+  cursor: pointer;
+  padding: 5px 5px;
+  transition: all 0.5s ease-in-out;
+}
+.procon:hover {
+  background-color: #4a5256;
+  padding: 5px 5px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
 
 @media (max-width: 633px) {
   .contact {
