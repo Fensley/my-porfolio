@@ -13,14 +13,14 @@ body {
 .home {
   display: flex;
   justify-content: space-between;
-  padding: 20px 50px;
+  padding: 14px 10px;
 }
 .header {
   display: flex;
   gap: 15px;
 }
 .about {
-  padding: 20px 50px;
+  padding: 14px 15px;
 
   display: flex;
   margin-top: 10%;
@@ -106,7 +106,9 @@ a {
   border-radius: 20px;
   justify-content: center;
 }
-
+.full-card i {
+  font-size: 40px;
+}
 .myjourney {
   padding: 20px 50px;
   display: flex;
