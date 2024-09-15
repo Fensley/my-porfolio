@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto Mono", monospace;
+  color: white;
+  background-color: rgb(44, 52, 58);
+}
+.home {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 10px;
+}
+.header {
+  display: flex;
+  gap: 15px;
+}
+.about {
+  padding: 14px 15px;
+
+  display: flex;
+  margin-top: 10%;
+
+  justify-content: space-around;
+  gap: 30px;
+}
+.presentation {
+  max-width: 600px;
+}
+.bigfont {
+  font-weight: bolder;
+  font-size: 4rem;
+  max-width: 590px;
+  line-height: 70px;
+}
+.para {
+  font-size: 20px;
+  max-width: 550px;
+  margin: 25px 0;
+  color: rgb(189, 187, 187);
+}
+.first-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+.image {
+  display: flex;
+  align-items: center;
+}
+button {
+  font-family: "Roboto Mono", monospace;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px 15px;
+  background-color: #4b5257;
+  border: none;
+  transition: all 0.5s ease-in-out;
+}
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.white-line {
+  /* border-bottom: 1px solid rgb(158, 157, 157); */
+  margin-top: 10%;
+  width: 100%;
+}
+.skills {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background-color: #2c343a;
+  /* border: 1px solid; */
+  margin-bottom: 50px;
+}
+.full-card {
+  display: flex;
+  gap: 20px;
+}
+.one {
+  padding: 15px;
+
+  text-align: center;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+/* tech stack */
+.qualification {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.long-bar {
+  border: none;
+  display: flex;
+  gap: 10px;
+  background-color: rgb(75, 82, 87);
+
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 20px;
+  justify-content: center;
+}
+.full-card i {
+  font-size: 40px;
+}
+.myjourney {
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+.services-background > h1 {
+  margin-bottom: 5%;
+}
+.aboutme {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.xxx {
+  max-width: 50vw;
+}
+
+.aaa {
+  display: flex;
+  gap: 20px;
+}
+.services {
+  background-color: #2c343a;
+  display: flex;
+  justify-content: center;
+  font-family: "Black Ops One", system-ui;
+}
+footer {
+  color: gray;
+  background-color: rgba(47, 57, 66, 0.4);
+  padding: 10px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.second-img {
+  height: 20vw;
+  border-radius: 10px;
+}
+/* transition style */
+.procon {
+  cursor: pointer;
+  padding: 5px 5px;
+  transition: all 0.5s ease-in-out;
+}
+.procon:hover {
+  background-color: #4b5257;
+  padding: 5px 5px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+button:hover {
+  transition: all 0.3s;
+  background-color: #6b544e;
+}
+.gray {
+  color: rgb(189, 187, 187);
+}
+.none {
+  display: none;
+}
+.alltogether {
+  font-size: 2rem;
+  /* font-family: "Luckiest Guy", cursive; */
+}
+/* media query */
+
+@media (max-width: 960px) {
+  .none {
+    display: block;
+  }
+  .about {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .bigfont {
+    font-size: 3.5rem;
+  }
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .full-card {
+    flex-direction: column;
+    gap: 0;
+  }
+  .long-bar {
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: transparent;
+  }
+  .aboutme {
+    flex-direction: column;
+  }
+  .myjourney {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .second-img {
+    height: 40vw;
+    border-radius: 10px;
+  }
+  .second-none {
+    display: none;
+  }
+  footer > p {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+/* Mobie */
+@media (max-width: 430px) {
+  .header {
+    font-size: 10px;
+    gap: 5px;
+  }
+  .dev {
+    font-size: 10px;
+  }
+  .bigfont {
+    font-size: 2.5rem;
+    line-height: 50px;
+  }
+  .first-img {
+    width: 270px;
+  }
+  .second-none {
+    display: none;
+  }
+  footer > p {
+    font-size: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tolong {
+    display: none;
+  }
+}

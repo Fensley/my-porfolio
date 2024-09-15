@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="icon" type="image/x-icon" href="./data/logo.jpg" />
+    <script src="https://web3forms.com/client/script.js" async defer></script>
+
+    <script
+      type="text/javascript"
+      src="https://assets.calendly.com/assets/external/widget.js"
+      async
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/8ee87fbffa.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main class="main">
+      <section class="home section" id="home">
+        <h3><a href="index.html">Fensley.dev</a></h3>
+        <div class="header">
+          <span class="procon"><a href="index.html">Home</a></span>
+          <span class="procon"> <a href="project.html">Porfolio</a></span>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="forforme">
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <h1 class="getin">Get in touch</h1>
+            <!-- Replace with your Access Key -->
+            <input
+              type="hidden"
+              name="access_key"
+              value="4d241ff1-7fe6-4ddf-9104-892e409e5c6c"
+            />
+
+            <!-- Form Inputs. Each input must have a name="" attribute -->
+            <input type="text" name="name" required placeholder="Your Name" />
+            <input
+              type="email"
+              name="email"
+              required
+              placeholder="Your email"
+            />
+
+            <textarea
+              name="message"
+              required
+              placeholder="your Mesage"
+            ></textarea>
+
+            <!-- hCaptcha Spam Protection -->
+            <div class="h-captcha not" data-captcha="true"></div>
+
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+
+        <!-- Calendly inline widget begin -->
+        <div class="meeting">
+          <div
+            class="calendly-inline-widget"
+            data-url="https://calendly.com/fensley/30min"
+          ></div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <p>Copyright&copy;2024. All right reserved</p>
+      <div class="aaa">
+        <a href="https://www.linkedin.com/in/fensley-rene-948643259/"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/fensley"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>
