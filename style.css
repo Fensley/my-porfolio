@@ -6,13 +6,13 @@
   box-sizing: border-box;
 }
 body {
-  /* display: flex; */
-  /* align-items: center; */
+  display: flex;
+  align-items: center;
   justify-content: center;
   background-color: #151615;
   color: white;
   font-family: monospace;
-  /* flex-direction: column; */
+  flex-direction: column;
 }
 section {
   margin-top: 20px;
