@@ -51,7 +51,7 @@ section {
 .isbuilding {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 1px;
 }
 .social {
   display: flex;
@@ -92,6 +92,9 @@ section {
 }
 .other {
   margin-top: 100px;
+  a {
+    color: #6eb8ff;
+  }
 }
 
 @media (max-width: 616px) {
