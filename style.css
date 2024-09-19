@@ -91,12 +91,15 @@ section {
   color: rgb(179, 176, 176);
 }
 .other {
-  margin-top: 100px;
+  margin-top: 80px;
   a {
     color: #6eb8ff;
   }
 }
-
+.a-sided {
+  color: inherit;
+  text-decoration: none;
+}
 @media (max-width: 616px) {
   section {
     margin: 20px;
