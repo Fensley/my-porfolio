@@ -1,0 +1,27 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: monospace;
+}
+section {
+  margin: 30px;
+}
+.firstdetail,
+.seconddetail {
+  max-width: 400px;
+  margin: 30px 0;
+  font-family: monospace;
+  font-size: 17px;
+}
+.count,
+.below {
+  font-size: 17px;
+}
+
+.link {
+  margin-top: 100px;
+}
