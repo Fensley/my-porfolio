@@ -33,6 +33,7 @@ section {
   margin-top: 100px;
 }
 .runUpload {
+  color: yellow;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -47,6 +48,7 @@ section {
 }
 .liparent {
   margin: 10px;
+  /* border: 1px solid; */
 }
 .liparent img {
   border-radius: 10px;

@@ -1,12 +1,18 @@
-const liparent = document.querySelectorAll(".liparent");
-
+const liparent = document.querySelectorAll(".runUpload");
 const liimg = document.querySelectorAll(".liparent img");
-
 const lispan = document.querySelectorAll(".runUpload i");
-
+let count = document.querySelector(".count");
 const miles = document.querySelectorAll(".miles");
 
-console.log(miles);
+function forMile() {
+  let startWith = 0;
+  miles.forEach((e) => {
+    startWith += Number(e.textContent);
+  });
+  count.textContent = startWith;
+}
+forMile();
+//
 
 let tf = false;
 liparent.forEach((li, inde) => {
