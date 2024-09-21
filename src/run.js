@@ -12,7 +12,6 @@ function forMile() {
   count.textContent = startWith;
 }
 forMile();
-//
 
 let tf = false;
 liparent.forEach((li, inde) => {
