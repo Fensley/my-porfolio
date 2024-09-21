@@ -25,3 +25,4 @@ liparent.forEach((li, inde) => {
     }
   });
 });
+// display the image when click on it --left
