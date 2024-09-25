@@ -1,4 +1,4 @@
-const TimeUpdate = () => {
+const TimeUpdate = async () => {
   const day = document.querySelector(".todaydate");
   const weekday = [
     "Sunday",
@@ -20,8 +20,9 @@ const TimeUpdate = () => {
   });
   document.querySelector(".timenow").innerHTML = time;
 };
-setInterval(() => {
-  TimeUpdate();
-}, 1000);
 
-//
+TimeUpdate();
+
+setInterval(async () => {
+  await TimeUpdate();
+}, 1000);
