@@ -1,0 +1,51 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #151615;
+  color: white;
+}
+section {
+  margin: 30px;
+}
+.photolist {
+  display: flex;
+  max-width: 500px;
+  flex-wrap: wrap;
+  gap: 10px;
+  height: 70vh;
+  overflow: auto;
+}
+
+.photolist::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+/* Top and bottom buttons on the scrollbar */
+.photolist::-webkit-scrollbar-button {
+  height: 16px;
+  background-color: #ccc; /* Color of the scrollbar buttons */
+}
+
+/* Custom scrollbar thumb (the draggable part) */
+.photolist::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the scrollbar thumb */
+  border-radius: 4px;
+  height: 30px; /* This sets a minimum height for the thumb, making it shorter */
+}
+
+/* Hover effect on the scrollbar thumb */
+.photolist::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+/* Optional: Scrollbar track */
+.photolist::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Background of the scrollbar track */
+}
+a {
+  color: #6eb8ff;
+}
