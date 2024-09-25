@@ -1,11 +1,12 @@
 {
   "name": "my-sites",
   "version": "1.0.0",
-  "description": "",
+  "description": "my personnal website",
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "keywords": [],
+  "author": "Fensley Rene",
   "license": "ISC"
 }
