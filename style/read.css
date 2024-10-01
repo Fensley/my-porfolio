@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #151615;
+  color: white;
+}
+section {
+  margin: 20px;
+  font-family: monospace;
+}
+.readintro {
+  font-family: monospace;
+}
+.readintro p {
+  margin: 20px;
+  max-width: 500px;
+}
+a {
+  color: #6eb8ff;
+}
+.nowreading {
+  margin: 20px;
+}
+.pastreading {
+  margin: 16px;
+}
+.h3pass {
+  margin: 5px;
+}
+.passbook {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  max-width: 400px;
+  padding: 10px;
+}
+.dateread {
+  margin: 5px;
+}
+footer {
+  margin: 50px;
+}
