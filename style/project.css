@@ -9,6 +9,26 @@ body {
   background-color: #181918;
   color: rgb(255, 243, 243);
 }
+section {
+  padding: 20px;
+}
 a {
+  text-decoration: none;
+  color: inherit;
+}
+.backhome {
   color: #6eb8ff;
+  text-decoration: underline;
+}
+.heading,
+.list {
+  margin: 30px;
+}
+
+.one {
+  border: 1px solid gray;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  width: fit-content;
 }
